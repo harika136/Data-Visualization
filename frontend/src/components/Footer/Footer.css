@@ -1,0 +1,18 @@
+/* Footer.css */
+footer {
+  /* Footer styling */
+  background: linear-gradient(to bottom, #4B6488 0%, #4B6488 65%, #2D3B51 65%, #2D3B51 55%);
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  width: 100%;
+  position: relative;
+}
+
+
+.github-logo {
+  width: 40px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}

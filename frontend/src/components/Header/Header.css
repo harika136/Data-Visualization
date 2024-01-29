@@ -1,0 +1,37 @@
+/* Header.css */
+header {
+  /* Header styling */
+  background: linear-gradient(to right, #6789BB 0%, #6789BB 50%, #4B6488 50%, #4B6488 75%, #2D3B51 75%, #2D3B51 100%);
+  color: #fff;
+  text-align: left;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.header-title {
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .title {
+    margin: 20px 0;
+  }
+}
